@@ -1,0 +1,97 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 250px 200px 150px 1fr  ;
+    grid-template-rows: 150px 150px 150px ;
+    grid-column-gap: 5px;
+    grid-row-gap:5px;
+    background-color:blanchedalmond;
+    width: 100%;
+    height: 800px;
+    
+}
+                                 /* 1 */
+.itemOne{
+  grid-column: 1/2;
+  grid-row: 1/5;
+  background-color:#7DC991;
+  margin:5px;
+  padding:10px;
+
+}
+
+.imgCaro{
+    align-items: center;
+    margin: 5px;
+    padding:5px;  
+}
+
+h1{
+  margin:5px;
+  padding-left:40px;
+  color: white;
+}
+p{
+  margin:5px 15px 20px 10px;
+  color:white;
+}
+    
+h3{
+  margin: 20px 15px 10px 10px;
+  color:rgb(38, 65, 38);
+
+}    
+                                 /* 2 */ 
+
+.itemTwo{
+  grid-column: 2/4;
+  background-color: #7DC991;
+  margin:5px;
+}
+
+                                  /* 3 */
+.profiel{
+  background-color: #7DC991;
+  grid-column: 4/5;
+  margin:5px;
+}
+
+                                  /* 4 */
+
+.opleidingOne{
+  grid-column: 2/5;
+  
+  background-color: #7DC991;
+}
+                                 /* 5 */
+
+.opleidingTwo{
+  grid-column: 2/5;
+  background-color:#7DC991;
+}
+
+                                /* 6 */ 
+.adress{
+  grid-column: 2/5;
+  
+  background-color:#7DC991;
+  }
+
+                                /* 7 */ 
+
+.contact{
+  background-color: #7DC991;
+  grid-column: 2/5;
+}
+  
+  
+ 
